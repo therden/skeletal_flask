@@ -24,7 +24,7 @@ This repo...
 
     - Keeps separate parts of the application in separate files
 
-    - Avoids the 'circular imports' problem that trips up many beginners when they first attempt the above, by using __init.py__ to tie it all together.
+    - Avoids the 'circular imports' problem that trips up many beginners when they first attempt the above, by using ```__init.py__``` to tie it all together.
 
     - Shows how to provide default app configuration values -- and provide a means to over-ride them
 
