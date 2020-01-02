@@ -16,6 +16,7 @@ This repo offered as a working example a beginner can study to learn how to move
 
 As a GitHub template, it can also be used as a 'skeleton' to serve as the basis for creating new database-backed Flask apps.
 
+
 ### Features
 
 This repo...
@@ -30,10 +31,11 @@ This repo...
 
 2. Makes sure that directories, files, and variables have unique names, in order to reduce ambiguities that might impede a beginner's understanding.
 
-3. Many of the files containing code include comments offering explanation and guidance.
+3. Many of the files containing Python code also include comments offering explanation and guidance.
 
 4. Includes an example of using Templates to modify the *Flask-Admin Home* page.
 
+5. Uses an ephemeral, in-memory database by default.  (This can easily be changed to a persistent disk file to preserve changes to the data between sessions.)
 
 
 ### Installation
@@ -50,14 +52,16 @@ The following instructions assume that you have both Python (version 3.5 or high
 
 ### Trying it out
 
-With your virtual environment activated, from within the ```skeletal_flask``` directory in a terminal window, type
+From within the ```skeletal_flask``` directory in a terminal window, to activate your virtual environment and start the server, type
 
     source .venv/bin/activate
     python run.py
 
 Then open a web browser and in the address bar enter ```http://localhost:8080```
 
-When you are finished using the app, you can either close the terminal window or use [Ctrl-C] to stop the web server and leave the terminal window open.
+When you are finished using the app, you can either
+* close the terminal window, or
+* use [Ctrl-C] to stop the web server and leave the terminal window open.
 
 
 ### Credits
@@ -67,4 +71,3 @@ When you are finished using the app, you can either close the terminal window or
 * The app is initialized with the toy database example described in the [Flask-Admin Quickstart](https://flask-sqlalchemy.palletsprojects.com/en/2.x/quickstart/).
 
 * I found the PNG file with the dancing skeletons at https://jetvein.tumblr.com/post/156176095255/.  I'd appreciate hearing from anyone who can tell me how to contact this Tumblr user -- I'd very much like to get their permission to use this image.
-Much gratitude and respect to the creators and maintainers of Python and the library modules used in this repository.
