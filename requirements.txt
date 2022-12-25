@@ -1,7 +1,7 @@
 argon2-cffi==19.1.0
 bcrypt==3.1.7
 blinker==1.4
-certifi==2019.11.28
+certifi==2022.12.7
 cffi==1.13.2
 Click==7.0
 cryptography==2.8
